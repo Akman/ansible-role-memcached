@@ -14,7 +14,7 @@
   when: ansible_os_family == 'Debian'
 
 - name: Install Memcached.
-  package: name=memcached state=installed
+  package: name=memcached state=present
   notify: restart memcached
 
 - name: Copy Memcached configuration.
