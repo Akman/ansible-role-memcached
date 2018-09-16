@@ -4,6 +4,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: memcached
   author: Akman
   description: Setup memcached on Linux
   license: "license (MIT)"
